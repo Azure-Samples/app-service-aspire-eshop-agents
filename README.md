@@ -22,7 +22,7 @@ Before you begin, ensure you have:
 First, deploy the external inventory service that provides product data via MCP (Model Context Protocol). The clothing store inventory is hosted in a separate App Service. The main app will connect to the inventory to populate the counts of the clothing items in the main app. And the Foundry agent will connect to the inventory using MCP so that it can look up inventory and product availablity while you chat with it. You should put the inventory in it's own resource group, which will be set-up when you run `azd up`.
 
 ```bash
-git clone https://github.com/seligj95/app-service-python-mcp-inventory.git
+git clone https://github.com/Azure-Samples/app-service-python-mcp-inventory.git
 cd app-service-python-mcp-inventory
 azd up
 ```
@@ -54,7 +54,7 @@ When prompted during `azd up`, make sure to select one of these regions for your
 Clone and deploy this fashion assistant application:
 
 ```bash
-git clone https://github.com/seligj95/app-service-aspire-eshop-agents.git
+git clone https://github.com/Azure-Samples/app-service-aspire-eshop-agents.git
 cd app-service-aspire-eshop-agents
 azd up
 ```
