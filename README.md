@@ -210,7 +210,7 @@ The MCP tool is attached directly to the **main orchestrator agent** because:
 
 **Set Required Environment Variables:**
 
-The script requires several environment variables. You can get these values from your Azure deployments:
+The script requires several environment variables. You can get these values from your Azure deployments. Pay attention to the shell you're using as that will determine how you set environment variables. For example, the following is for bash. You may need to remove the `'` characters around the values if you're on Windows or are using PowerShell or Command Prompt. If "export" isn't supported in your shell, use the appropriate command, such as "set", to set environment variables.
 
 ```bash
 # Ensure you're logged into Azure CLI
