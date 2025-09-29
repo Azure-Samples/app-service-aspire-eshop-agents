@@ -2,7 +2,7 @@
 
 This sample demonstrates a modern cloud-native fashion e-commerce application built with [.NET Aspire](https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview) and Azure AI Foundry's multi-agent architecture. The application showcases how to create intelligent shopping experiences using connected agents, the MCP (Model Context Protocol) tool, and the OpenAPI specified tool. The sample is also deployed on the Premium v4 tier of Azure App Service, leveraging the latest technologies for scalability and performance that App Service has to offer.
 
-<img src="media/agent-architecture.png" alt="Agent Architecture" width="800"/>
+<img src="media/agent-architecture-2.png" alt="Agent Architecture" width="800"/>
 
 ## .NET Aspire on Azure App Service
 
